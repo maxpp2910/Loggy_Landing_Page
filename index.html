@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--==================== FAVICON ====================-->
+    <link rel="icon" href="assets/img/LoggyFavicon.jpg" />
+    <!--========== BOX ICONS LIBRARY ==========-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!--========== Title ==========-->
+    <title>Loggy</title>
+
+    <!--================== LINK THUMBNAIL META TAGS ===================-->
+
+    <!-- MS Tile - for Microsoft apps-->
+    <meta
+      name="msapplication-TileImage"
+      content="https://media.discordapp.net/attachments/1227836073309110329/1231442873061343426/LoggyFavicon.jpg?ex=6636f98c&is=6624848c&hm=81082248a7779f7a8a93894f3c0f7fba315beaf1e03d75f7acdd82417b973ec5&=&format=webp&width=426&height=597"
+    />
+    <!-- fb & Whatsapp -->
+    <meta property="og:site_name" content="Loggy" />
+    <meta property="og:title" content="Gestión logística | Loggy" />
+    <meta
+      property="og:description"
+      content="Una forma fácil de administrar los pedidos!"
+    />
+    <!-- IMG URL: -->
+    <meta
+      property="og:image"
+      content="https://media.discordapp.net/attachments/1227836073309110329/1231442873061343426/LoggyFavicon.jpg?ex=6636f98c&is=6624848c&hm=81082248a7779f7a8a93894f3c0f7fba315beaf1e03d75f7acdd82417b973ec5&=&format=webp&width=426&height=597"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image:type" content="image/jpeg" />
+
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+    <meta property="og:url" content="https://eats-uber.netlify.app" />
+  </head>
+  <body>
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrollTop show-scroll" id="scroll-top">
+      <i class="bx bx-chevron-up scrollTop_icon"></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="/" class="nav_logo">
+          <b>
+            Loggy
+          </b>
+        </a>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">Sobre nosotros</a>
+            </li>
+            <li class="nav_item">
+              <a href="#services" class="nav_link">Servicios</a>
+            </li>
+            <li class="nav_item">
+              <a href="#ad" class="nav_link">Equipo</a>
+            </li>
+            <li class="nav_item">
+              <a href="#app" class="nav_link">App Móvil</a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">Contáctenos</a>
+            </li>
+
+            <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+          </ul>
+        </div>
+
+        <div class="nav_toggle" id="nav-toggle">
+
+          <button
+            class="menu"
+            aria-label="Abrir Menu"
+            onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+          >
+            <svg width="40" height="41" viewBox="0 0 100 100">
+              <path
+                class="line line1"
+                d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+              />
+              <path class="line line2" d="M 20,50 H 80" />
+              <path
+                class="line line3"
+                d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--========== HOME ==========-->
+      <section class="home" id="home">
+        <div class="home_container bd-container bd-grid">
+          <div class="home_data">
+            <h1 class="home_title">Optimización logística de fácil uso</h1>
+            <h2 class="home_subtitle">Para ti 🤖 </h2>
+            <a href="#app" class="button">Usar ahora</a>
+          </div>
+
+          <img
+            src="assets/img/home.png"
+            alt="Gestion logística"
+            class="home_img"
+          />
+        </div>
+      </section>
+
+      <!--========== ABOUT ==========-->
+      <section class="about section bd-container" id="about">
+        <div class="about_container bd-grid">
+          <div class="about_data">
+            <span class="section-subtitle about_initial">Sobre Nosotros</span>
+            <h2 class="section-title about_initial">
+              Experimente una mejor forma de gestionar sus pedidos!
+            </h2>
+            <p class="about_description">
+              Con soluciones eficientes y tecnológicamente avanzadas, Loggy impulsa la sostenibilidad y 
+              la eficiencia en toda la cadena de suministro, ofreciendo un enfoque integral hacia la gestión 
+              ambientalmente responsable.  😎
+            </p>
+            <a href="#app" class="button">Te animas? Úsalo ahora!</a>
+          </div>
+
+          <img
+            src="assets/img/about.jpg"
+            alt="Envasado de Lubricantes"
+            class="about_img"
+          />
+        </div>
+      </section>
+
+      <!--========== SERVICES ==========-->
+      <section class="services section bd-container" id="services">
+        <span class="section-subtitle">Te ofrecemos</span>
+        <h2 class="section-title">Lo que mejor hacemos</h2>
+
+        <div class="services_container bd-grid">
+          <div class="services_content">
+            <img
+            src="assets/img/envase.webp"
+            alt="Envasado de Lubricantes"
+            class="services_img"
+          />
+
+            <h3 class="services_title">Gran gestión de procesos</h3>
+            <p class="services_description">
+              La forma más eficaz de gestionar los pedidos de envasado de Lubricantes
+              y más, con Loggy!
+            </p>
+          </div>
+
+          <div class="services_content">
+            <img
+            src="assets/img/pedido.jpg"
+            alt="Envasado de Lubricantes"
+            class="services_img"
+          />
+
+            <h3 class="services_title">Controla los pedidos fácilmente </h3>
+            <p class="services_description">
+              Podrás completar tus pedidos sin retrasos, gracias al fácil
+              uso de la app.
+            </p>
+          </div>
+
+          <div class="services_content">
+            <div class="services_content">
+              <img
+              src="assets/img/transacciones.webp"
+              alt="Envasado de Lubricantes"
+              class="services_img"
+            />
+
+            <h3 class="services_title">Completa tus pedidos fácilmente</h3>
+            <p class="services_description">
+              Realiza tus transacciones de información y materiales con una
+              fácil gestión del inventario de tu negocio.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--========== TEAMMATES ==========-->
+      <section class="ad section bd-container" id="ad">
+        <span class="section-subtitle">Proyecto</span>
+        <h2 class="section-title">Nuestro equipo</h2>
+
+        <div class="ad_container bd-grid">
+          <div class="ad_content">
+            <img src="assets/img/Aldo.jpg" alt="" class="foods_img" />
+            <h3 class="ad_name">Aldo Baldeon</h3>
+
+
+            </a>
+          </div>
+
+          <div class="ad_content">
+            <img src="assets/img/Max.png" alt="" class="foods_img" />
+            <h3 class="ad_name">Max Paitan</h3>
+
+
+            </a>
+          </div>
+
+          <div class="ad_content">
+            <img src="assets/img/Diego.jpg" alt="" class="foods_img" />
+            <h3 class="ad_name">Diego Sanchez</h3>
+
+
+            </a>
+          </div>
+
+          <div class="ad_content">
+            <img src="assets/img/Leonardo.png" alt="" class="foods_img" />
+            <h3 class="ad_name">Leonardo Taype</h3>
+
+
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+      <!--===== APP =======-->
+      <section class="app section bd-container" id="app">
+        <div class="app_container bd-grid">
+          <div class="app_data">
+            <span class="section-subtitle app_initial">Comience ahora!</span>
+            <h2 class="section-title app_initial">Instale nuestro aplicativo</h2>
+            <p class="app_description">
+              Con un clic abajo, instale el aplicativo y gestione su proceso de
+              envasado de una forma fácil e intuitiva!
+            </p>
+            <div class="app_stores">
+              <a href="#"
+                ><img
+                  src="assets/img/playStoreDownload.png"
+                  alt=""
+                  class="app_store"
+              /></a>
+              <a href="#"
+                ><img
+                  src="assets/img/appStoreDownload.svg"
+                  alt=""
+                  class="app_store"
+              /></a>
+            </div>
+          </div>
+
+          <img src="assets/img/iPhone.png" alt="" class="app_img" />
+        </div>
+      </section>
+
+      <!--========== CONTACT US ==========-->
+      <section class="contact section bd-container" id="contact">
+        <div class="contact_container bd-grid">
+          <div class="contact_data">
+            <span class="section-subtitle contact_initial"
+              >Conversamos?</span
+            >
+            <h2 class="section-title contact_initial">Contáctenos</h2>
+            <p class="contact_description">
+              Necesita ayuda para usar el aplicativo? Ya sea para realizar la gestión de inventarios y pedidos
+              u otras opciones sobre nuestro servicio, contáctenos ahora! Estamos online las 24 horas del día, de Lunes a Sábado! 😉
+            </p>
+          </div>
+
+          <div class="contact_button">
+            <a href="#" class="button">Contáctenos</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+      <div class="footer_container bd-grid">
+        <div class="footer_content">
+          <b class="footer_logo">
+            Loggy
+          </b>
+
+          <span class="footer_description">El mejor servicio para usted. </span>
+
+          <div>
+            <a href="#" class="footer_social"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="#" class="footer_social"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="#" class="footer_social"><i class="bx bxl-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Información</h3>
+          <ul>
+            <li><a href="#" class="footer_link">Eventos</a></li>
+            <li><a href="#" class="footer_link">Política de Privacidad</a></li>
+            <li><a href="#" class="footer_link">Términos de servicio</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Dirección</h3>
+          <ul>
+            <li>Avenida La Marina s/n</li>
+            <li>San Miguel</li>
+            <li>Lima, Pérú</li>
+          </ul>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Navegación</h3>
+          <ul>
+            <li><a href="#app" class="footer_link">App móvil</a></li>
+            <li><a href="#contact" class="footer_link">Contáctenos</a></li>
+            <li><a href="#ad" class="footer_link">Nuestro equipo</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer_copy">
+        &#169; Hecho en 2024, por
+        <a
+          href="https://google.com.pe/"
+          class="footer_link"
+          target="_blank"
+        >
+         Grupo Loggy, Applicaciones Móviles
+        </a>
+      </p>
+    </footer>
+
+    <!--========== SCROLL REVEAL LIBRARY ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
