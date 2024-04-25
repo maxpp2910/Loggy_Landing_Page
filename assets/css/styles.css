@@ -365,7 +365,9 @@ body.dark-theme {
 
 /*========== AD TEAM ==========*/
 .ad_container {
-  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  gap: 2ram;
+  grid-template-columns: repeat(2, 2fr);
   justify-content: center;
 }
 .ad_content {
@@ -376,9 +378,10 @@ body.dark-theme {
   border-radius: 0.5rem;
   box-shadow: 0 2px 4px var(--shadow-color);
   padding: 0.75rem;
+  text-align: center;
 }
 .ad_img {
-  width: 100px;
+  width: 1000px;
   align-self: center;
   margin-bottom: var(--mb-2);
 }
