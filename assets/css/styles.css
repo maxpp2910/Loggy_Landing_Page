@@ -1,5 +1,5 @@
 /*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /*===== VARIABLES CSS =====*/
 :root {
@@ -12,12 +12,12 @@
   --logo-dark-color: #162328;
   --text-color: #000;
   --text-color-light: #6c6c6c;
-  --body-color: #CBD6EE;
-  --container-color: #a0b8bb;
+  --body-color: #FFFFFF;
+  --container-color: #FFEDCD;
   --shadow-color: rgba(185, 14, 14, 0.1);
 
   /*========== Font and Typography ==========*/
-  --body-font: "Poppins", sans-serif;
+  --body-font: "Roboto", sans-serif;
 
 
   --big-font-size: 2rem;
@@ -418,6 +418,7 @@ body.dark-theme {
 }
 .app_store {
   width: 160px;
+  height: 40px;
   margin: 0 var(--mb-1);
 }
 .app_img {
